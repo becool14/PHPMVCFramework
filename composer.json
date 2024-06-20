@@ -1,0 +1,23 @@
+{
+    "name": "magas/phpmvc-framework",
+    "type": "framework",
+    "autoload": {
+        "psr-4": {
+            "Magas\\PhpmvcFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "M4g4s",
+            "email": "bohdanmahas.work@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "app\\":"./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
